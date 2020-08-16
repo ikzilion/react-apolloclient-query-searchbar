@@ -20,7 +20,7 @@ class App extends Component {
  constructor(props) {
     super(props);
 this.state = {
-  search :'...'
+  search :'   '
 }}
 
 handleAppSearch = (searchIn) => {
