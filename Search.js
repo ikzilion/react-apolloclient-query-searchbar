@@ -24,9 +24,9 @@ const {loading, error , data} = useQuery(SEARCH_RESULT,{variables : { search },}
 
     return( 
       
-      <ul key = {data.getCompanyInformation._id}>
+      <ul>
             {data.getCompanyInformation.map(queryResult => (
-              <li> <h1>{queryResult.companyName}</h1>
+              <li key = {queryResult._id}> <h1>{queryResult.companyName}</h1>
               <br/>{queryResult.quickDescription}</li>
              ) )}
         </ul>)
