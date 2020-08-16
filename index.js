@@ -34,7 +34,7 @@ handleAppSearch = (searchIn) => {
 
 
   render() {
-    console.log(`this is app ${this.state.search}`)
+   // console.log(`this is app ${this.state.search}`)
     return (
       <ApolloProvider client = {client}>
       <div>

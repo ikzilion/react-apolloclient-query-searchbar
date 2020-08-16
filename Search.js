@@ -17,7 +17,7 @@ query searchquery ($search : String!){
 
 function searchResult ({search}) {
 const {loading, error , data} = useQuery(SEARCH_RESULT,{variables : { search },});
-  console.log ( search )
+  //console.log ( search )
     if (loading) return <p>Loading...</p>;
     if (error) return console.log (error);
 

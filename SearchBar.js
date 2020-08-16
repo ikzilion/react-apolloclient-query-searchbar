@@ -21,8 +21,8 @@ handlesubmit = (event) => {
   this.setState({
     searchvalue : this.state.searchvalue
   },  this.props.searchOutput(this.state.searchvalue)
-  , console.log (`this is form searchbar  ${this.state.searchvalue}`))
-}
+  //,console.log (`this is form searchbar  ${this.state.searchvalue}`)
+  )}
 
 
 render() {
