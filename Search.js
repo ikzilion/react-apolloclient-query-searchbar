@@ -8,7 +8,7 @@ query searchquery ($search : String!){
     _id
     companyName
     quickDescription
-    fulldescription
+    fullDescription
   }
   
   }

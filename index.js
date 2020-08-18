@@ -8,7 +8,7 @@ import Search from './Search'
 import SearchBar from './SearchBar'
 
 const client = new ApolloClient({
-  uri: 'http://localhost:4000/graphql',
+  uri: 'https://graphql-test-server-morales.herokuapp.com/graphql',
   cache: new InMemoryCache()
 });
 
